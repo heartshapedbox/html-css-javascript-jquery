@@ -1,0 +1,57 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+  h2 {
+  color: red;
+  text-align: center;
+}
+
+
+  div.main_container {
+  width: 450px;
+  height: 450px;
+  border: 1px solid #FFC0CB;
+  border-radius: 5px;
+  background-color: #FFC0CB;
+  margin: auto;
+  box-shadow: 4px 4px 10px grey;
+}
+
+
+div.inner_container {
+  width: 365px;
+  height: 365px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+input {
+  width: 275px;
+}
+
+
+#checkButton {
+  width: 72px;
+}
+
+
+div.input {
+  position: relative;
+}
+
+
+div.checkButton {
+  position: absolute;
+  margin-left: 285px;
+  margin-top: -24px;
+}
+
+
+div.resetButton {
+  position: absolute;
+  margin-left: 285px;
+  margin-top: -24px;
+}
