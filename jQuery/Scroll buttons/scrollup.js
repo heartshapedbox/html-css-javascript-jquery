@@ -15,5 +15,4 @@ $(document).ready(function() {
     }, 500); //scroll length (ms)
     return false;
   });
-
 });
