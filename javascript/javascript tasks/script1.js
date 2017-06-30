@@ -16,7 +16,6 @@ function sequence(start, step) {
 }
 
 
-
 console.log(gen()); // 0
 console.log(gen()); // 2
 console.log(gen()); // 4
