@@ -3,9 +3,9 @@ var month = document.querySelector(".monthName");
 var list = document.querySelector("ul");
 
 
-select.addEventListener("change", getMonth);
+select.addEventListener("change", getNumberOfDays);
 
-function getMonth() {
+function getNumberOfDays() {
   var m = select.value;
   var days;
     if (m === "January" || m === "March" || m === "May" || m === "July" || m === "August" || m === "October" || m === "December") {
@@ -16,11 +16,11 @@ function getMonth() {
       days = 30;
     }
     reset();
-    changeMonth(m, days);
+    createCalendar(m, days);
   }
 
 
-function changeMonth(m, days) {
+function createCalendar(m, days) {
   month.textContent = m;
   for (var i = 1; i <= days; i++){
     var item = document.createElement("li");
