@@ -12,6 +12,8 @@ function getNumberOfDays() {
       days = 31;
     } else if (m === "February") {
       days = 28;
+    } else if (m === "") {
+      days = 0;
     } else {
       days = 30;
     }
