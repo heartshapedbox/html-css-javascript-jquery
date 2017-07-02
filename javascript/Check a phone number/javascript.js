@@ -8,7 +8,6 @@ resetButton.style.display = "none";
 
 
 checkButton.addEventListener("click", check);
-ß
 
 
 function check() {
