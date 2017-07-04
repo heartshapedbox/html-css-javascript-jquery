@@ -16,7 +16,7 @@ function partial(arg) {
 
   //возвращаем функцию, где слаживаем все аргументы
   return function() {
-    //this = add; y = аргументы без add [1, 2, 10]; Array...call(arguments) = аргументы, который прибавляем [5] || [2, 8] || [34, 3]
+    //this = add; y = аргументы без add [1, 2, 10]; Array...call(arguments) = аргументы, которые прибавляем [5] || [2, 8] || [34, 3]
     return arg.apply(this, y.concat(Array.prototype.slice.call(arguments)));
   }
 }
