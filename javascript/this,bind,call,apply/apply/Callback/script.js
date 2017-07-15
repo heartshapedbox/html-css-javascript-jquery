@@ -19,4 +19,4 @@ getFullName(clientData.setFullName, clientData, "John", "Smith");
 
 
 
-console.log(clientData.fullName);
+document.write(clientData.fullName);
