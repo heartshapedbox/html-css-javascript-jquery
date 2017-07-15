@@ -13,8 +13,8 @@ function greeting(gender, age, firstName, lastName) {
 
 greeting("Male", 37, "John", "Smith"); // Hello, Mr. John Smith!
 greeting("Male", 22, "Steven", "Martin"); // Hey, Steven Martin!
-greeting("Female", 19, "Ashley", "Turner"); // Hello, Ms. Ashley Turner!
-greeting("Female", 56, "Barbara", "Star"); // Hey, Barbar Star!
+greeting("Female", 19, "Ashley", "Turner"); // Hey, Ashley Turner!
+greeting("Female", 56, "Barbara", "Star"); // Hello, Ms. Barbar Star!
 
 
 var newGreeting = greeting.bind(null, "male", 12);
