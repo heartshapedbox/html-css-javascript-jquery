@@ -1,5 +1,5 @@
 // Two functions - one object
-// Can objects "a" and "b" be equals? Yes, if they return the same object! Let's add object "data" for example.
+// Can objects "a" and "b" be equal? Yes, if they return the same object! Let's add object "data" for example.
 
 
 // add object
