@@ -29,4 +29,4 @@ alert("The result of addition: " + calculator.calculate("5 + 3")); // The result
 alert("The result of subtraction: " + calculator.calculate("17 - 2")); // The result of subtraction: 15
 alert("The result of division: " + calculator.calculate("17 / 2")); // The result of division: 8.5
 alert("The result of multiplication: " + calculator.calculate("17 * 2")); // The result of multiplication: 34
-alert("The result of square: " + calculator.calculate("17 ** 2")); // The result of square: 289
+alert("The result of exponentiation: " + calculator.calculate("17 ** 2")); // The result of exponentiation: 289
