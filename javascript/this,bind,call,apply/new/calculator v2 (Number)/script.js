@@ -27,4 +27,4 @@ alert("The result of addition: " + calculator.calculate("13 + 2")); // The resul
 alert("The result of subtraction: " + calculator.calculate("13 - 2")); // The result of subtraction: 11
 alert("The result of division: " + calculator.calculate("13 / 2")); // The result of division: 6.5
 alert("The result of multiplication: " + calculator.calculate("13 * 2")); // The result of multiplication: 26
-alert("The result of square: " + calculator.calculate("13 ** 2")); // The result of square: 169
+alert("The result of exponentiation: " + calculator.calculate("13 ** 2")); // The result of exponentiation: 169
