@@ -44,4 +44,4 @@ alert("The result of additon: " + calculator.calculate("7 + 2")); // The result 
 alert("The result of subtraction: " + calculator.calculate("7 - 2")); // The result of subtraction: 5
 alert("The result of division: " + calculator.calculate("7 / 2")); // The result of division: 3.5
 alert("The result of multiplication: " + calculator.calculate("7 * 2")); // The result of multiplication: 14
-alert("The result of square: " + calculator.calculate("7 ** 2")); // The result of square: 49
+alert("The result of exponentiation: " + calculator.calculate("7 ** 2")); // The result of exponentiation: 49
