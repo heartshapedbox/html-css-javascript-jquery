@@ -32,9 +32,9 @@ function User(fullName) {
 
 
 var user = new User("Jane Stone");
-console.log(user.fullName); // John Smith
-console.log(user.firstName); // John
-console.log(user.lastName); // Smith
+console.log(user.fullName); // Jane Stone
+console.log(user.firstName); // Jane
+console.log(user.lastName); // Stone
 
 
 user.lastName = "Smith";
