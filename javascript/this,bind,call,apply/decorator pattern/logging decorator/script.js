@@ -22,7 +22,7 @@ function makeLogging(fn, log) {
 
 var log = [];
 
-// wrap the decorator
+// wrap function make() in the decorator
 make = makeLogging(make, log);
 
 
