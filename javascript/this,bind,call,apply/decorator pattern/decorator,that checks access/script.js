@@ -30,7 +30,7 @@ function guest(status) {
   }
 }
 
-// wrap the decorator
+// wrap function guest() in the decorator
 guest = checkAccess(guest);
 
 
