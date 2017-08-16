@@ -28,7 +28,7 @@ function sum() {
   return count;
 }
 
-// wrap the decorator
+// wrap function sum() in the decorator
 sum = check(sum, [checkNum, checkNum, checkNum, checkNum]);
 
 
