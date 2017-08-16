@@ -1,8 +1,8 @@
 // caching decorator
 // make the decorator makeCaching(fn), that takes function fn() and returns wrapper, that caching its result
-// function fn() may have any number of arguments
+// function sum() takes any number of arguments
 
-// sum function for any number of arguments
+// sum function
 function sum() {
   var count = 0;
   for (var i = 0; i < arguments.length; i++) {
