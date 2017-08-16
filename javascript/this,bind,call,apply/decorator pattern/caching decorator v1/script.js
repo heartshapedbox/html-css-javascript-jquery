@@ -18,7 +18,7 @@ function makeCaching(fn) {
   }
 }
 
-// wrap the decorator
+// wrap function fn() in the decorator
 fn = makeCaching(fn);
 
 var a, b;
