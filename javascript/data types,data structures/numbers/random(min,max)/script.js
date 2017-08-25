@@ -1,8 +1,8 @@
 // Write function getRandom() that generates values in range of min-max and does not includes max.
 
 function getRandom(min, max) {
-  var result = Math.floor(Math.random() * (max - min));
-  return result + min;
+  var x = max - min;
+  return Math.floor(min + Math.random() * x);
 }
 
 console.log(getRandom(3, 10)); // 4
