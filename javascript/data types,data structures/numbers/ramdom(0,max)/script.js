@@ -1,4 +1,4 @@
-// Write function getRandom() that generates values in range of 0-max and does not includes max.
+// Write function getRandom() that generates values in range of 0-max and does not include max.
 
 function getRandom(max) {
     return Math.floor(Math.random() * max);
