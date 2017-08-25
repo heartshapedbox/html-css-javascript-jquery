@@ -1,4 +1,4 @@
-// Write function getRandom() that generates values in range of min-max and does not includes max.
+// Write function getRandom() that generates values in range of min-max and does not include max.
 
 function getRandom(min, max) {
   var x = max - min;
