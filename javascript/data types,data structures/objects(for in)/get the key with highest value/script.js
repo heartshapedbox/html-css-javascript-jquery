@@ -13,7 +13,7 @@ var salaries = {
 var max = 0;
 var name = "";
 var result = "";
-for(var key in salaries) {
+for (var key in salaries) {
   if (salaries[key] > max) {
     max = salaries[key];
     name = key;
