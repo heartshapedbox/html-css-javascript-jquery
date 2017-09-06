@@ -1,4 +1,4 @@
-// write a function multiplyNumeric(menu) that takes the object "menu" and multiply all its key values on 2.
+// write a function multiplyNumeric(menu) that takes the object "menu" and multiplies all its key values on 2.
 
 var menu = {
   width: 100,
