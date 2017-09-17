@@ -3,7 +3,7 @@
 
 arr = [10, -2, 2, 3, -9, 2];
 
-function getMaxSubSum (arr) {
+function getMaxSubSum(arr) {
   var max = 0;
   var part = 0;
 
