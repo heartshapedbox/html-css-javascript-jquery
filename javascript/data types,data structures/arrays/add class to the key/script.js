@@ -1,4 +1,4 @@
-// Make a function addClass(obj, cls) that adds the class "cls" into the key "productList" if it isn't there yet
+// Make a function addClass(obj, cls) that adds the class "cls" into the key "productList" if it is not there yet
 
 // object
 var obj = {
