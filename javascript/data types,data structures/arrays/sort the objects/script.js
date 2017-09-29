@@ -21,7 +21,6 @@ var user04 = {
 };
 
 var users = [user01, user02, user03, user04];
-var sortedByAge = [];
 
 function compareAge(a, b) {
   if (a.age < b.age) return -1;
@@ -30,11 +29,7 @@ function compareAge(a, b) {
 
 users.sort(compareAge);
 
-for (var i = 0; i < users.length; i++) {
-  sortedByAge.push(users[i]);
-}
-
-console.log(sortedByAge);
+console.log(users);
 
 /*
 [ { name: 'Samanta', age: 19 },
