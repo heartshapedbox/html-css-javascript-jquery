@@ -1,4 +1,4 @@
-// Method "arr.map" is used for the transformation of the array
+// Method "arr.map" is used for transforming the array
 
 var arr = ["element1", "element2", "element3", "element4", "element5"];
 
