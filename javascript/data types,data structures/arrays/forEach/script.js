@@ -1,4 +1,4 @@
-// Method "forEach" is used for going through an array
+// Method "forEach" is used for going through the array
 
 var arr = ["Water", "Food", "Clothes", "Vehicle", "Building"];
 
