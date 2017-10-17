@@ -1,4 +1,4 @@
-// Method "arr.filter" is used for the filtration of the array
+// Method "arr.filter" is used for filtering the array
 
 var arr = ["element1", "element2", 1, 2, 3];
 
