@@ -1,5 +1,5 @@
 // Get the length of each element from the array "arr" and push it into a new array "arrLength"
-// Use a method "map"
+// Use a method "loop"
 
 var arr = ["Food", "Clothes", "Vehicle", "Buildings", "Water"];
 
