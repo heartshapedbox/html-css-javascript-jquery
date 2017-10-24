@@ -1,4 +1,5 @@
 // array-like object "arguments"
+// an example of the sum of any number of arguments
 
 function getSum() {
   var count = 0;
