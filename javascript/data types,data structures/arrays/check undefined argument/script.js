@@ -1,4 +1,4 @@
-// Check if the function f(x) has a "undefined" argument
+// Check if the function f(x) has an "undefined" argument
 // if there is a first argument - let it be 1
 // if there is no first argument - let it be 0
 
