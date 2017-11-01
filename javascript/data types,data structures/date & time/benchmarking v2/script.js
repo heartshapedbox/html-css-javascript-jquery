@@ -7,7 +7,7 @@ var arr = [];
 // add 100 "0" to the array
 for (var i = 0; i < 100; i++) {
   arr[i] = 0;
-}6
+}
 
 // do some action with the array using "for...in" method
 function walkIn(arr) {
