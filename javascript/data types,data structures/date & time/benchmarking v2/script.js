@@ -9,15 +9,15 @@ for (var i = 0; i < 100; i++) {
   arr[i] = 0;
 }
 
-// do some action with the array using "for...in" method
-function walkIn(arr) {
+// do some action with the array using "for...in loop" method
+function usingForInLoop(arr) {
   for (var key in arr) {
     arr[key] *= 10;
   }
 }
 
-// do some action with the array using "loop" method
-function walkLength(arr) {
+// do some action with the array using "for loop" method
+function usingForLoop(arr) {
   for (var i = 0; i < arr.length; i++) {
     arr[i] *= 10;
   }
@@ -34,5 +34,5 @@ function getRunningTime(f) {
   return end - start;
 }
 
-alert(getRunningTime(walkIn) + " ms"); // 124.12500000000003 ms
-alert(getRunningTime(walkLength) + " ms"); // 5.320000000001528 ms
+alert(getRunningTime(usingForInLoop) + " ms"); // 124.12500000000003 ms
+alert(getRunningTime(usingForLoop) + " ms"); // 5.320000000001528 ms
