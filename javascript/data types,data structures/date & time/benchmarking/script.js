@@ -9,14 +9,14 @@ for (var i = 0; i < 100; i++) {
   arr[i] = 0;
 }6
 
-// do some action with the array using "for...in" method
+// do some action with the array using "for...in loop" method
 function usingForInLoop(arr) {
   for (var key in arr) {
     arr[key] *= 10;
   }
 }
 
-// do some action with the array using "loop" method
+// do some action with the array using "for loop" method
 function usingForLoop(arr) {
   for (var i = 0; i < arr.length; i++) {
     arr[i] *= 10;
