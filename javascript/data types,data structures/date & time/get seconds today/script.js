@@ -9,7 +9,7 @@ var secondsInHour = 3600 * hours;
 var secondsInMinute = 60 * minutes;
 
 function getSecondsToday() {
-  console.log(secondsInHour + secondsInMinute + seconds);
+  console.log(secondsInHour + secondsInMinute + seconds); // 68008
 }
 
-getSecondsToday(); // 68008
+getSecondsToday(); 
