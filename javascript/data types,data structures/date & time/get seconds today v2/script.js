@@ -4,7 +4,7 @@ var date = new Date;
 
 function getSecondsToday() {
   var seconds = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
-  console.log(seconds);
+  console.log(seconds); // 68008
 }
 
-getSecondsToday(); // 68008
+getSecondsToday(); 
