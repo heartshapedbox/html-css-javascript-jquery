@@ -40,7 +40,7 @@ var result = counter();
 // LexicalEnvironment = {result: counter()}
 
 console.log(result()); // 1
-console.log(result()); // 25
+console.log(result()); // 2
 console.log(result()); // 3
 
 result.set(10);
