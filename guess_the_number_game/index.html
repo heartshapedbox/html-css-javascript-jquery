@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess number game</title>
+  <meta charset="utf-8">
+  <html lang="en-US">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+   <!--Added main container-->
+   <div class="mainContainer">
+
+      <!--Added inner container-->
+      <div class="innerContainer">
+        <h1>Guess number game</h1>
+
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
+
+
+      <br>
+
+
+      <!--Added form division-->
+      <div class="form">
+        <label for="guessInput">Enter a guess: </label>
+        <input type="input" id="guessInput" class="guessInput">
+      </div>
+
+
+      <!--Added submit button container-->
+      <div class="submitButton">
+        <button type="submit" class="guessSubmit">Submit guess</button>
+      </div>
+
+
+      <!--Added reset button container-->
+      <div class="resetButton">
+        <button type="submit" class="resetButton">Start new game</button>
+      </div>
+
+
+      <br>
+
+
+      <!--Added result division-->
+      <div class="result">
+        <p class="guessNumber"></p>
+        <br>
+        <p class="guesses"></p>
+        <br>
+        <p class="lastResult"></p>
+        <br>
+        <p class="lowOrHigh"></p>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<!--Added script-->
+<script type="text/javascript" src="script.js"></script>
+</html>

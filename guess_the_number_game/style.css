@@ -1,0 +1,70 @@
+* {
+  font-family: "Open Sans", san-serif;
+  letter-spacing: 1px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+div.mainContainer {
+  margin: auto;
+  margin-top: 100px;
+  width: 570px;
+  height: 570px;
+  border: 2px solid #E6E6FA;
+  border-radius: 5px;
+  background-color: #E6E6FA;
+  box-shadow: 3px 3px 6px;
+}
+
+
+div.innerContainer {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+
+div.submitButton {
+  margin-left: 354px;
+  margin-top: -25px;
+}
+
+
+div.resetButton {
+  margin-left: 354px;
+  margin-top: -25px;
+}
+
+
+button.guessSubmit {
+  width: 135px;
+  height: 25px;
+}
+
+
+button.resetButton {
+  width: 135px;
+  height: 25px;
+}
+
+
+input.guessInput {
+  width: 220px;
+}
+
+
+p.lastResult {
+  color: white;
+  padding: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+p.lowOrHigh {
+  font-size: 20px;
+}
