@@ -3,9 +3,11 @@
   var square;
 
   square = function(x) {
-    return x * x;
+    var result;
+    result = x * x;
+    return result;
   };
 
-  console.log(square());
+  console.log(square(5));
 
 }).call(this);

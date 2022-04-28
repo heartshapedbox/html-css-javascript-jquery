@@ -1,3 +1,4 @@
 square = (x) ->
-  x * x
-console.log(square())
+  result = x * x
+  result
+console.log(square(5))
